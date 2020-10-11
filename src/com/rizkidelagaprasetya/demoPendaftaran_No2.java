@@ -34,10 +34,10 @@ public class demoPendaftaran_No2 {
         System.out.println("\nBerhasil Terdaftar.....\n");
         for (pendaftaranMahasiswa x: arrayMahasiswa) {
             System.out.println("Data Peserta :");
-            System.out.println("Nama\t: " + x.getNama());
-            System.out.println("Asal\t: " + x.getTanggalLahir());
-            System.out.println("Nama\t: " + x.getGender());
-            System.out.println("Asal\t: " + x.getAsal());
+            System.out.println("Nama\t\t: " + x.getNama());
+            System.out.println("Tanggal Lahir\t: " + x.getTanggalLahir());
+            System.out.println("Gender\t\t: " + x.getGender());
+            System.out.println("Asal\t\t: " + x.getAsal());
             System.out.println();
         }
     }
